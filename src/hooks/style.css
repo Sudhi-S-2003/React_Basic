@@ -1,0 +1,14 @@
+.usestate input{
+    display: block;
+    margin: 10px auto;
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+.usestate .card{
+    margin: 20px auto;
+    width: 250px;
+    outline: 2px solid brown;
+    padding: 20px;
+    box-shadow: 4px 6px 3px brown;
+}
