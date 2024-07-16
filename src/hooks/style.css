@@ -12,3 +12,24 @@
     padding: 20px;
     box-shadow: 4px 6px 3px brown;
 }
+.useref .box{
+    margin:10px auto;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    outline: 2px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.useref .box button{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px brown;
+}
+.success{
+    background-color: green;
+}
+.error{
+    background-color: red;
+}

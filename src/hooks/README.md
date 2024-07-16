@@ -11,10 +11,18 @@ It is a react hook ,which creates an state variable.
 which helps us to track state in components & updates the user interface when state changes.
 </p>
 <h3>useEffect</h3>
-<p></p>
+<p>
+It is a react hook allow you to perform side effects in your components.
+eg:1.fetching data from api
+2.directly updating DOM
+3.Timers like SetTimeOut & SetInterval
+</p>
 
 <h3>useRef</h3>
-<p></p>
+<p>
+It is a react hook that allow us to create mutable variables, which will not re-render the component.
+useRef is also used for accessing DOM elements.
+</p>
 
 <h3>useMemo</h3>
 <p></p>
