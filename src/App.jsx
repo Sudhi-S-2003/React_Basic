@@ -9,7 +9,11 @@
 //4.useMemo hook
 // import UseMemo from "./hooks/UseMemo"
 //5.useCallback hook
-import UseCallBack from "./hooks/UseCallBack"
+// import UseCallBack from "./hooks/UseCallBack"
+//useContext hook
+// import UseContext from "./hooks/UseContext"
+// useReducer hook
+import UseReducer from "./hooks/UseReducer"
 function App() {
  
 
@@ -20,7 +24,9 @@ function App() {
     {/* <UseEffect/> */}
     {/* <UseRef/> */}
     {/* <UseMemo/> */}
-    <UseCallBack/>
+    {/* <UseCallBack/> */}
+    {/* <UseContext/> */}
+    <UseReducer/>
     </>
   )
 }

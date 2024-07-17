@@ -33,3 +33,31 @@
 .error{
     background-color: red;
 }
+.usecontext{
+    height: 95vh;
+    box-sizing: border-box;
+    outline: 4px solid brown;
+    width: 95vw;
+    margin: auto;
+}
+.usecontext .profile{
+    height: 55vh;
+    box-sizing: border-box;
+    outline: 4px solid brown;
+    width: 80vw;
+    margin: 10px auto;
+}
+.usecontext .footer{
+    height: 25vh;
+    box-sizing: border-box;
+    outline: 4px solid brown;
+    width: 90vw;
+    margin:  auto;
+}
+.usecontext .contact{
+    height: 25vh;
+    box-sizing: border-box;
+    outline: 4px solid brown;
+    width: 50vw;
+    margin: 10px auto;
+}

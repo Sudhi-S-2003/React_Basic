@@ -43,10 +43,24 @@ it means ,when we use the callback hook,it doesn't multiple instance of same  fu
 </p>
 
 <h3>useContext</h3>
-<p></p>
+<p>
+usecontext is a react hook allow you to access data from any components without explicity passing it down through Props at every level.
+usecontext is used to manage Global data in react App.
+</p>
 
 <h3>useReducer</h3>
-<p></p>
+<p>
+useReducer is similar to userstate,But instead of providing state & setter function .it Provides state and dispatch function
+</p>
+<p>
+the useReducer Hook accepts 2 arguments 
+-Reducer function
+-initial state
+and return : Current state and Dispatch Method
+</p>
+<p>
+The reducer function specifies how the state gets updated.
+</p>
 
 <h3>useLayoutEffect</h3>
 <p></p>
