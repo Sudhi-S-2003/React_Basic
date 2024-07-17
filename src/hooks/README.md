@@ -25,10 +25,22 @@ useRef is also used for accessing DOM elements.
 </p>
 
 <h3>useMemo</h3>
-<p></p>
+<p>
+The react useMemo hooks returns a memorized value.(it's like caching a value so it doesn't need to be recalculated.)
+The useMemo Hook only runs When one of its dependencies gets updated.
+This can improve the performance of the application.There is one or more hooks in react to improve Performanace of the application.There is one more hooks in react to improve performance,that is useCallback hook.</p>
+<p>
+The useMemo & useCallback Hooks are similar.The maim difference is:
+UseMemo hooks returns a memorized value.
+UseCallback hooks returns a memorized function.
+</p>
+
 
 <h3>useCallback</h3>
-<p></p>
+<p>
+usecallback is a reacthook that lets you cache a function definition between re-renders.
+it means ,when we use the callback hook,it doesn't multiple instance of same  function when re-render happens.instead of creating new instance of the function,it provides the cached function on re-render of the component
+</p>
 
 <h3>useContext</h3>
 <p></p>

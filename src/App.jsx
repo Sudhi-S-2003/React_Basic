@@ -5,7 +5,11 @@
 //2.useEffect hook
 // import UseEffect from "./hooks/UseEffect"
 //3. useRef hook
-import UseRef from "./hooks/UseRef";
+// import UseRef from "./hooks/UseRef";
+//4.useMemo hook
+// import UseMemo from "./hooks/UseMemo"
+//5.useCallback hook
+import UseCallBack from "./hooks/UseCallBack"
 function App() {
  
 
@@ -14,7 +18,9 @@ function App() {
     {/* <ImgPreview/> */}
     {/* <UseState/>       */}
     {/* <UseEffect/> */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    {/* <UseMemo/> */}
+    <UseCallBack/>
     </>
   )
 }
