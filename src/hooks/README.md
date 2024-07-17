@@ -63,7 +63,12 @@ The reducer function specifies how the state gets updated.
 </p>
 
 <h3>useLayoutEffect</h3>
-<p></p>
-
+<p>
+useLayoutEffect works similarly to UseEffect,but it is called before the User interface gets mounted.
+</p>
+<p>
+UseEffect gets called after priniting the DOM Elements.
+UseLayoutEffect gets called before priniting the DOM elements
+</p>
 <h4>Custom Hooks</h4>
 <p></p>

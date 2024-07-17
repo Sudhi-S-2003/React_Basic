@@ -13,7 +13,9 @@
 //useContext hook
 // import UseContext from "./hooks/UseContext"
 // useReducer hook
-import UseReducer from "./hooks/UseReducer"
+// import UseReducer from "./hooks/UseReducer"
+//useLayoutEffect hook
+import UseLayoutEffect from "./hooks/UseLayoutEffect"
 function App() {
  
 
@@ -26,7 +28,8 @@ function App() {
     {/* <UseMemo/> */}
     {/* <UseCallBack/> */}
     {/* <UseContext/> */}
-    <UseReducer/>
+    {/* <UseReducer/> */}
+    <UseLayoutEffect/>
     </>
   )
 }
